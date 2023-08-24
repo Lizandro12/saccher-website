@@ -83,11 +83,18 @@ A. Basic Styling
   -- Styling - Colors, Font Size, Font Family
 -------------------------------------------*/
 
+//Font SACCHER
+
+@font-face {
+    font-family: Zag ;
+    src: url(../css/fonts/zag-bold.otf);
+}
+
 body {
     color: #191919;
-    font-family: 'Poppins', sans-serif;
+    font-family: Zag;
     font-weight: 400;
-    font-size: .9375rem;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
 }
@@ -1552,7 +1559,7 @@ body.has-loading-screen.loading-done:after {
 -------------------------------------------*/
 
 .navbar {
-    font-size: .875rem;
+    font-size: 1.2rem;
     font-weight: 500;
     padding-bottom: 2rem;
     padding-top: 2rem;
