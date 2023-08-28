@@ -83,11 +83,11 @@ A. Basic Styling
   -- Styling - Colors, Font Size, Font Family
 -------------------------------------------*/
 
-//Font SACCHER
+/*Font SACCHER*/
 
 @font-face {
     font-family: Zag ;
-    src: url(../css/fonts/zag-bold.otf);
+    src: url(../fonts/zag-bold.otf);
 }
 
 body {
